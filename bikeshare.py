@@ -87,7 +87,7 @@ def display_raw_data(df):
     row_index = 0
     while True:
         # Ask the user if they want to see 5 lines of raw data
-        show_data = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
+        show_data = input("Would you like to check 5 lines of raw data? Enter yes or no: ").lower()
         if show_data == 'yes':
             # to show data of next 5 rows
             print(df.iloc[row_index:row_index + 5])
