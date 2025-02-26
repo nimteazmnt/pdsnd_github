@@ -10,14 +10,14 @@ CITY_DATA = {
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to select a city, month, and day to analyze.
    
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore 3 cities US bikeshare data!')
     
     # Ask for city from user
     cities = ['chicago', 'new york city', 'washington']
@@ -87,7 +87,7 @@ def display_raw_data(df):
     row_index = 0
     while True:
         # Ask the user if they want to see 5 lines of raw data
-        show_data = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
+        show_data = input("Would you like to check 5 lines of raw data? Enter yes or no: ").lower()
         if show_data == 'yes':
             # to show data of next 5 rows
             print(df.iloc[row_index:row_index + 5])
