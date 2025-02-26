@@ -13,5 +13,5 @@ The project is about finding statistics about bikeshare for 3 cities. The analys
 chicago.csv, new_york_city.csv and washington.csv.
 
 ### Credits
-M&T internal Teams channel for this course.
+**M&T** internal Teams channel for this course.
 
