@@ -4,14 +4,14 @@
 Feb 10, 2025.
 
 ### Project Title
-Explore US Bikeshare Data
+**Explore US Bikeshare Data**
 
 ### Description
-The project is about finding statistics about bikeshare for 3 cities. The analysis explores popular times of travel, popular stations and trips, trip duration and user information
+The project is about finding statistics about bikeshare for 3 cities. The analysis explores popular times of travel, popular stations and trips, trip duration and user information.
 
 ### Files used
 chicago.csv, new_york_city.csv and washington.csv.
 
 ### Credits
-M&T internal Teams channel for this course
+M&T internal Teams channel for this course.
 
